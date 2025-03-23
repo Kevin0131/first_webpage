@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>王寬的個人網站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>歡迎來到王寬的網站</h1>
+    </header>
+    <main>
+        <!-- 照片 -->
+        <section id="photo">
+            <img src="D:\download_chrome\kevin_hw4\doramon.webp" alt="我的照片">
+        </section>
+
+        <!-- 自我介紹 -->
+        <section id="intro">
+            <h2>關於我</h2>
+            <p>你好，我是王寬！我目前就讀台大電機資訊安全所。這是我的第一個個人網站，歡迎留言給我！</p>
+        </section>
+
+        <!-- 留言板 -->
+        <section id="message-board">
+            <h2>留言板</h2>
+            <textarea id="message-input" placeholder="請輸入你的留言..."></textarea>
+            <button onclick="addMessage()">提交留言</button>
+            <ul id="messages"></ul>
+        </section>
+
+        <!-- 訪客計數器 -->
+        <section id="visitor-counter">
+            <h2>訪客數</h2>
+            <p>目前訪客數：<span id="counter">0</span></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
